@@ -16,7 +16,7 @@ public class TestServer : IDisposable
 
     private void CreateAndStart()
     {
-        var uri = "http://0.0.0.0:19001";
+        var uri = "http://localhost:19001";
         var builder = WebApplication.CreateBuilder();
 
         _app = builder.Build();
